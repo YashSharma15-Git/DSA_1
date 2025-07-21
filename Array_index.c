@@ -24,7 +24,7 @@ int main(){
         arr[k] = arr[k-1];
     }
     
-    arr[pos-1] = num;
+    arr[pos] = num;
     size++;
     
     for(k=0;k<size;k++){
