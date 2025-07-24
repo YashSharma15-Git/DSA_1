@@ -8,6 +8,7 @@ int main(){
     scanf("%d",&size);
     
     //elements in array
+    //the numbering will start from 1 for the complier, for the array it is from 0
     printf("Enter elements in the array = \n");
     for(int i=0;i<size;i++){
         scanf("%d",&arr[i]);
